@@ -1,0 +1,15 @@
+.menu{
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 20px;
+}
+.menu a{
+    font-size: 21px;
+    text-decoration: none;
+    color:rgb(34, 86, 255);
+    padding: 30px;
+}
+.menu a:hover{
+    border-left: 1px solid rgb(34, 86, 255);
+    border-right: 1px solid rgb(34, 86, 255);
+}

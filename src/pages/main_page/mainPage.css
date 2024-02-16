@@ -1,0 +1,37 @@
+.home table{
+    width: 90%;
+    margin: auto;
+    font-size: 21px;
+    border-collapse: collapse;
+
+}
+.home table tr{
+    padding: 30px;
+    border-bottom: 1px solid black;
+}
+.home table tr td,.home table tr th{
+    padding: 30px;
+    
+}
+.home table tr td img{
+width: 100px;
+height: 100px;
+}
+.home table tr td.buttons{
+    display: flex;
+    column-gap: 10px;
+}
+.home table tr td.buttons a{
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid black;
+    color: black;
+    padding: 15px;
+    border-radius: 15px;
+}
+.home table tr td.buttons a:first-child:hover{
+    box-shadow: rgba(11, 230, 11, 0.35) 0px 5px 15px;
+}
+.home table tr td.buttons a:last-child:hover{
+    box-shadow: rgba(230, 11, 11, 0.35) 0px 5px 15px;
+}
